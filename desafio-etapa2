@@ -1,0 +1,15 @@
+class desafioBootCamp:
+
+    def inicio(self, nome, descricao, link_imagem, programa, animador): # (def) = definiçao
+        self.nomeP = nome
+        self.descricaoP = descricao
+        self.linkImagemP = imagem
+        self.programaP = programa
+        self.animadorP = animador
+
+    def reproducao(self):
+        f'Nome: {self.nome}\nDescrição: {self.descricao}\nLink para imagem: {self.link_imagem}\nPrograma: {self.programa}\nAnimador: {self.animador}' # 'f' = format
+
+    personagemfic = Personagem('Pica-Pau', 'Passarinho extrovertido e maluco', 'link_para_imagem', 'SBT', 'Walter Lantz')
+
+    print(personagemfic.visualizar())
